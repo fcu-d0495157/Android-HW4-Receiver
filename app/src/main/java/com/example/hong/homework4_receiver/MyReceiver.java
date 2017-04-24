@@ -14,6 +14,7 @@ public class MyReceiver extends BroadcastReceiver {
 
     static int id = 70000;
 
+
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     @Override
     public void onReceive(Context context, Intent intent) {
