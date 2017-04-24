@@ -37,7 +37,6 @@ public class MyReceiver extends BroadcastReceiver {
         builder.setWhen(System.currentTimeMillis());
         Notification notify = builder.build();
 
-
         NotificationManager notificationManager = (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
 
         notificationManager.notify(id++, notify);
